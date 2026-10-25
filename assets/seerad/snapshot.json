@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-10-26 04:38:07",
+  "ts": "2026-10-26 04:48:15",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 69735,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 68,
+    "temp_c": 70,
     "procs": [
      {
       "pid": 1209327,
@@ -80,7 +80,7 @@
     "mem_used_mb": 34306,
     "mem_total_mb": 40960,
     "util_gpu": 0,
-    "temp_c": 42,
+    "temp_c": 41,
     "procs": [
      {
       "pid": 2346933,
@@ -93,10 +93,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 68/80GB 68C",
+   "GPU0 84% 68/80GB 72C",
    "GPU1 0% 33/40GB 43C",
    "GPU2 0% 67/80GB 44C",
-   "GPU3 0% 34/40GB 42C"
+   "GPU3 0% 34/40GB 41C"
   ],
   "source": 30,
   "producer": 30,
