@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-10-26 02:46:41",
+  "ts": "2026-10-26 02:56:49",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 70331,
     "mem_total_mb": 81920,
-    "util_gpu": 83,
+    "util_gpu": 100,
     "temp_c": 72,
     "procs": [
      {
@@ -93,7 +93,7 @@
    }
   ],
   "gpus_text": [
-   "GPU0 98% 69/80GB 72C",
+   "GPU0 100% 69/80GB 71C",
    "GPU1 0% 33/40GB 43C",
    "GPU2 0% 67/80GB 45C",
    "GPU3 0% 34/40GB 42C"
