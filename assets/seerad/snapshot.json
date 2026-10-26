@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-26 22:10:32",
+  "ts": "2026-10-26 22:20:43",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 10044,
+    "mem_used_mb": 69931,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 78,
+    "util_gpu": 0,
+    "temp_c": 66,
     "procs": [
      {
       "pid": 1209327,
@@ -30,25 +30,40 @@
       "mem_mb": 6054,
       "experiment": "other",
       "cmd_short": "train_population_memax_control.py"
+     },
+     {
+      "pid": 3637032,
+      "owner": "chenlinwei",
+      "mem_mb": 59882,
+      "experiment": "other",
+      "cmd_short": "gpu_hold_elastic.py"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 136,
+    "mem_used_mb": 33390,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 50,
-    "procs": []
+    "procs": [
+     {
+      "pid": 3637033,
+      "owner": "chenlinwei",
+      "mem_mb": 33258,
+      "experiment": "other",
+      "cmd_short": "gpu_hold_elastic.py"
+     }
+    ]
    },
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 53,
+    "util_gpu": 100,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 3434601,
@@ -62,18 +77,26 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 19,
+    "mem_used_mb": 34306,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 48,
-    "procs": []
+    "procs": [
+     {
+      "pid": 3637034,
+      "owner": "chenlinwei",
+      "mem_mb": 34282,
+      "experiment": "other",
+      "cmd_short": "gpu_hold_elastic.py"
+     }
+    ]
    }
   ],
   "gpus_text": [
-   "GPU0 100% 10/80GB 77C",
-   "GPU1 0% 0/40GB 50C",
-   "GPU2 0% 41/80GB 53C",
-   "GPU3 0% 0/40GB 48C"
+   "GPU0 0% 68/80GB 65C",
+   "GPU1 0% 33/40GB 50C",
+   "GPU2 99% 41/80GB 78C",
+   "GPU3 0% 34/40GB 48C"
   ],
   "source": 30,
   "producer": 30,
@@ -114,12 +137,28 @@
     {
      "who": "other",
      "desc": "caikunzhi python"
+    },
+    {
+     "who": "hold",
+     "desc": "elastic hold (yields on real job)"
+    }
+   ],
+   "gpu1": [
+    {
+     "who": "hold",
+     "desc": "elastic hold (yields on real job)"
     }
    ],
    "gpu2": [
     {
      "who": "other",
      "desc": "rgb_enc_sac.py"
+    }
+   ],
+   "gpu3": [
+    {
+     "who": "hold",
+     "desc": "elastic hold (yields on real job)"
     }
    ]
   },
