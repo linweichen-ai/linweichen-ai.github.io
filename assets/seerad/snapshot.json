@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-10-26 15:55:21",
+  "ts": "2026-10-26 16:05:29",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 69737,
     "mem_total_mb": 81920,
-    "util_gpu": 89,
+    "util_gpu": 100,
     "temp_c": 71,
     "procs": [
      {
