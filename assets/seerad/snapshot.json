@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-26 23:21:43",
+  "ts": "2026-10-26 23:31:52",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 68994,
+    "mem_used_mb": 3986,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 53,
+    "temp_c": 50,
     "procs": [
      {
       "pid": 1209327,
@@ -23,30 +23,23 @@
       "mem_mb": 1310,
       "experiment": "other",
       "cmd_short": "experiment_runner_v2.py"
-     },
-     {
-      "pid": 3637032,
-      "owner": "chenlinwei",
-      "mem_mb": 65002,
-      "experiment": "other",
-      "cmd_short": "gpu_hold_elastic.py"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33390,
+    "mem_used_mb": 37081,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
+    "util_gpu": 4,
     "temp_c": 50,
     "procs": [
      {
-      "pid": 3637033,
-      "owner": "chenlinwei",
-      "mem_mb": 33258,
+      "pid": 3709126,
+      "owner": "xieyuxuan",
+      "mem_mb": 36924,
       "experiment": "other",
-      "cmd_short": "gpu_hold_elastic.py"
+      "cmd_short": "train.py"
      }
     ]
    },
@@ -56,7 +49,7 @@
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 78,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 3434601,
@@ -70,26 +63,18 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 34306,
+    "mem_used_mb": 36956,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 49,
-    "procs": [
-     {
-      "pid": 3637034,
-      "owner": "chenlinwei",
-      "mem_mb": 34282,
-      "experiment": "other",
-      "cmd_short": "gpu_hold_elastic.py"
-     }
-    ]
+    "procs": []
    }
   ],
   "gpus_text": [
-   "GPU0 0% 67/80GB 53C",
-   "GPU1 0% 33/40GB 50C",
-   "GPU2 99% 41/80GB 78C",
-   "GPU3 0% 34/40GB 49C"
+   "GPU0 0% 4/80GB 50C",
+   "GPU1 0% 36/40GB 50C",
+   "GPU2 100% 41/80GB 78C",
+   "GPU3 0% 36/40GB 49C"
   ],
   "source": 30,
   "producer": 30,
@@ -126,28 +111,18 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
-    },
-    {
-     "who": "hold",
-     "desc": "elastic hold (yields on real job)"
     }
    ],
    "gpu1": [
     {
-     "who": "hold",
-     "desc": "elastic hold (yields on real job)"
+     "who": "other",
+     "desc": "xieyuxuan python"
     }
    ],
    "gpu2": [
     {
      "who": "other",
      "desc": "rgb_enc_sac.py"
-    }
-   ],
-   "gpu3": [
-    {
-     "who": "hold",
-     "desc": "elastic hold (yields on real job)"
     }
    ]
   },
