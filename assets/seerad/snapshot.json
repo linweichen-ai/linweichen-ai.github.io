@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-27 22:13:06",
+  "ts": "2026-10-27 22:23:16",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 35765,
+    "mem_used_mb": 34210,
     "mem_total_mb": 81920,
-    "util_gpu": 77,
-    "temp_c": 56,
+    "util_gpu": 99,
+    "temp_c": 66,
     "procs": [
      {
       "pid": 1209327,
@@ -37,23 +37,16 @@
       "mem_mb": 22222,
       "experiment": "other",
       "cmd_short": "experiment.py"
-     },
-     {
-      "pid": 626080,
-      "owner": "shaolizhuo",
-      "mem_mb": 1550,
-      "experiment": "other",
-      "cmd_short": "run.py"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22364,
+    "mem_used_mb": 22354,
     "mem_total_mb": 40960,
-    "util_gpu": 87,
-    "temp_c": 62,
+    "util_gpu": 98,
+    "temp_c": 64,
     "procs": [
      {
       "pid": 594175,
@@ -69,8 +62,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
-    "util_gpu": 99,
-    "temp_c": 67,
+    "util_gpu": 0,
+    "temp_c": 58,
     "procs": [
      {
       "pid": 3434601,
@@ -86,8 +79,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 55,
+    "util_gpu": 100,
+    "temp_c": 60,
     "procs": [
      {
       "pid": 358539,
@@ -100,10 +93,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 71% 35/80GB 57C",
-   "GPU1 93% 22/40GB 61C",
-   "GPU2 100% 41/80GB 66C",
-   "GPU3 0% 33/40GB 55C"
+   "GPU0 99% 33/80GB 65C",
+   "GPU1 98% 22/40GB 63C",
+   "GPU2 0% 41/80GB 58C",
+   "GPU3 100% 33/40GB 59C"
   ],
   "source": 30,
   "producer": 30,
@@ -148,10 +141,6 @@
     {
      "who": "other",
      "desc": "wangguoyan python"
-    },
-    {
-     "who": "other",
-     "desc": "shaolizhuo python"
     }
    ],
    "gpu1": [
