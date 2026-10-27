@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-27 21:52:46",
+  "ts": "2026-10-27 22:02:55",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 61109,
+    "mem_used_mb": 61345,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 63,
+    "temp_c": 67,
     "procs": [
      {
       "pid": 1209327,
@@ -39,40 +39,40 @@
       "cmd_short": "experiment.py"
      },
      {
-      "pid": 580696,
-      "owner": "shaolizhuo",
-      "mem_mb": 8512,
-      "experiment": "other",
-      "cmd_short": "run.py"
-     },
-     {
       "pid": 584235,
       "owner": "caikunzhi",
-      "mem_mb": 16956,
+      "mem_mb": 17082,
       "experiment": "other",
       "cmd_short": "run_attribute_query_diagnostic.py"
      },
      {
-      "pid": 585227,
-      "owner": "quanyinqi",
-      "mem_mb": 1388,
+      "pid": 590527,
+      "owner": "shaolizhuo",
+      "mem_mb": 7684,
       "experiment": "other",
-      "cmd_short": "eval_genesis_reference.py --out=genesis_runs.csv"
+      "cmd_short": "run.py"
+     },
+     {
+      "pid": 592500,
+      "owner": "quanyinqi",
+      "mem_mb": 2348,
+      "experiment": "other",
+      "cmd_short": "eval_genesis_reference.py --out=genesis_go2est_runs.csv"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 32054,
+    "mem_used_mb": 22354,
     "mem_total_mb": 40960,
-    "util_gpu": 96,
-    "temp_c": 62,
+    "util_gpu": 0,
+    "temp_c": 57,
     "procs": [
      {
-      "pid": 435586,
+      "pid": 594175,
       "owner": "wangguoyan",
-      "mem_mb": 31922,
+      "mem_mb": 22222,
       "experiment": "other",
       "cmd_short": "experiment.py"
      }
@@ -83,8 +83,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 63,
+    "util_gpu": 99,
+    "temp_c": 61,
     "procs": [
      {
       "pid": 3434601,
@@ -100,8 +100,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 90,
-    "temp_c": 62,
+    "util_gpu": 100,
+    "temp_c": 64,
     "procs": [
      {
       "pid": 358539,
@@ -114,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 60/80GB 63C",
-   "GPU1 96% 31/40GB 62C",
-   "GPU2 100% 41/80GB 64C",
-   "GPU3 100% 33/40GB 61C"
+   "GPU0 100% 60/80GB 67C",
+   "GPU1 0% 22/40GB 56C",
+   "GPU2 100% 41/80GB 61C",
+   "GPU3 100% 33/40GB 65C"
   ],
   "source": 30,
   "producer": 30,
@@ -165,11 +165,11 @@
     },
     {
      "who": "other",
-     "desc": "shaolizhuo python"
+     "desc": "caikunzhi python"
     },
     {
      "who": "other",
-     "desc": "caikunzhi python"
+     "desc": "shaolizhuo python"
     },
     {
      "who": "other",
