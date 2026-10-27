@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-27 16:48:16",
+  "ts": "2026-10-27 16:58:25",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 35884,
+    "mem_used_mb": 16468,
     "mem_total_mb": 81920,
-    "util_gpu": 39,
-    "temp_c": 52,
+    "util_gpu": 86,
+    "temp_c": 57,
     "procs": [
      {
       "pid": 1209327,
@@ -25,9 +25,16 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 12849,
+      "pid": 281081,
+      "owner": "cenzihan",
+      "mem_mb": 1910,
+      "experiment": "other",
+      "cmd_short": "train_chassis.py"
+     },
+     {
+      "pid": 282060,
       "owner": "wangguoyan",
-      "mem_mb": 31922,
+      "mem_mb": 10590,
       "experiment": "other",
       "cmd_short": "experiment.py"
      }
@@ -36,10 +43,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22354,
+    "mem_used_mb": 22364,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 61,
+    "util_gpu": 100,
+    "temp_c": 66,
     "procs": [
      {
       "pid": 209231,
@@ -55,8 +62,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 72,
+    "util_gpu": 99,
+    "temp_c": 70,
     "procs": [
      {
       "pid": 3434601,
@@ -72,8 +79,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22246,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 67,
+    "util_gpu": 29,
+    "temp_c": 59,
     "procs": [
      {
       "pid": 184555,
@@ -86,10 +93,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 38% 35/80GB 51C",
-   "GPU1 0% 22/40GB 61C",
-   "GPU2 100% 41/80GB 70C",
-   "GPU3 100% 22/40GB 66C"
+   "GPU0 93% 16/80GB 58C",
+   "GPU1 86% 22/40GB 67C",
+   "GPU2 99% 41/80GB 70C",
+   "GPU3 72% 22/40GB 60C"
   ],
   "source": 30,
   "producer": 30,
@@ -126,6 +133,10 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
+    },
+    {
+     "who": "other",
+     "desc": "cenzihan python"
     },
     {
      "who": "other",
