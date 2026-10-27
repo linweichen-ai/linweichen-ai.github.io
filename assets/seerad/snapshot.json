@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-10-27 17:28:54",
+  "ts": "2026-10-27 17:39:03",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 34186,
     "mem_total_mb": 81920,
-    "util_gpu": 99,
+    "util_gpu": 100,
     "temp_c": 70,
     "procs": [
      {
@@ -43,9 +43,9 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22364,
+    "mem_used_mb": 22354,
     "mem_total_mb": 40960,
-    "util_gpu": 96,
+    "util_gpu": 97,
     "temp_c": 68,
     "procs": [
      {
@@ -62,8 +62,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
-    "util_gpu": 99,
-    "temp_c": 69,
+    "util_gpu": 0,
+    "temp_c": 60,
     "procs": [
      {
       "pid": 3434601,
@@ -79,8 +79,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22246,
     "mem_total_mb": 40960,
-    "util_gpu": 89,
-    "temp_c": 65,
+    "util_gpu": 100,
+    "temp_c": 64,
     "procs": [
      {
       "pid": 184555,
@@ -93,10 +93,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 99% 33/80GB 69C",
-   "GPU1 96% 22/40GB 67C",
-   "GPU2 100% 41/80GB 68C",
-   "GPU3 100% 22/40GB 64C"
+   "GPU0 100% 33/80GB 68C",
+   "GPU1 97% 22/40GB 69C",
+   "GPU2 0% 41/80GB 60C",
+   "GPU3 97% 22/40GB 65C"
   ],
   "source": 30,
   "producer": 30,
