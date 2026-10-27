@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-27 22:02:55",
+  "ts": "2026-10-27 22:13:06",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 61345,
+    "mem_used_mb": 35765,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 67,
+    "util_gpu": 77,
+    "temp_c": 56,
     "procs": [
      {
       "pid": 1209327,
@@ -39,35 +39,21 @@
       "cmd_short": "experiment.py"
      },
      {
-      "pid": 584235,
-      "owner": "caikunzhi",
-      "mem_mb": 17082,
-      "experiment": "other",
-      "cmd_short": "run_attribute_query_diagnostic.py"
-     },
-     {
-      "pid": 590527,
+      "pid": 626080,
       "owner": "shaolizhuo",
-      "mem_mb": 7684,
+      "mem_mb": 1550,
       "experiment": "other",
       "cmd_short": "run.py"
-     },
-     {
-      "pid": 592500,
-      "owner": "quanyinqi",
-      "mem_mb": 2348,
-      "experiment": "other",
-      "cmd_short": "eval_genesis_reference.py --out=genesis_go2est_runs.csv"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22354,
+    "mem_used_mb": 22364,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 57,
+    "util_gpu": 87,
+    "temp_c": 62,
     "procs": [
      {
       "pid": 594175,
@@ -84,7 +70,7 @@
     "mem_used_mb": 41904,
     "mem_total_mb": 81920,
     "util_gpu": 99,
-    "temp_c": 61,
+    "temp_c": 67,
     "procs": [
      {
       "pid": 3434601,
@@ -100,8 +86,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 64,
+    "util_gpu": 0,
+    "temp_c": 55,
     "procs": [
      {
       "pid": 358539,
@@ -114,10 +100,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 60/80GB 67C",
-   "GPU1 0% 22/40GB 56C",
-   "GPU2 100% 41/80GB 61C",
-   "GPU3 100% 33/40GB 65C"
+   "GPU0 71% 35/80GB 57C",
+   "GPU1 93% 22/40GB 61C",
+   "GPU2 100% 41/80GB 66C",
+   "GPU3 0% 33/40GB 55C"
   ],
   "source": 30,
   "producer": 30,
@@ -165,15 +151,7 @@
     },
     {
      "who": "other",
-     "desc": "caikunzhi python"
-    },
-    {
-     "who": "other",
      "desc": "shaolizhuo python"
-    },
-    {
-     "who": "other",
-     "desc": "quanyinqi python"
     }
    ],
    "gpu1": [
