@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-29 09:54:22",
+  "ts": "2026-10-29 10:04:33",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 29000,
+    "mem_used_mb": 70425,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 70,
+    "util_gpu": 97,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -27,14 +27,14 @@
      {
       "pid": 2992702,
       "owner": "wangguoyan",
-      "mem_mb": 23362,
+      "mem_mb": 31922,
       "experiment": "other",
       "cmd_short": "experiment.py"
      },
      {
       "pid": 2993932,
       "owner": "xieyuxuan",
-      "mem_mb": 452,
+      "mem_mb": 33310,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -43,15 +43,15 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 23561,
+    "mem_used_mb": 32054,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 57,
+    "util_gpu": 10,
+    "temp_c": 61,
     "procs": [
      {
       "pid": 2992703,
       "owner": "wangguoyan",
-      "mem_mb": 23420,
+      "mem_mb": 31922,
       "experiment": "other",
       "cmd_short": "experiment.py"
      }
@@ -62,8 +62,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 1380,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 49,
+    "util_gpu": 6,
+    "temp_c": 50,
     "procs": [
      {
       "pid": 2991104,
@@ -84,15 +84,15 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 14504,
+    "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 68,
+    "util_gpu": 59,
+    "temp_c": 66,
     "procs": [
      {
       "pid": 2992704,
       "owner": "wangguoyan",
-      "mem_mb": 14480,
+      "mem_mb": 33502,
       "experiment": "other",
       "cmd_short": "experiment.py"
      }
@@ -100,10 +100,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 95% 28/80GB 70C",
-   "GPU1 0% 23/40GB 57C",
-   "GPU2 0% 1/80GB 49C",
-   "GPU3 98% 14/40GB 68C"
+   "GPU0 86% 69/80GB 76C",
+   "GPU1 8% 31/40GB 61C",
+   "GPU2 6% 1/80GB 50C",
+   "GPU3 61% 33/40GB 63C"
   ],
   "source": 30,
   "producer": 30,
