@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-29 16:43:04",
+  "ts": "2026-10-29 16:53:24",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 43355,
+    "mem_used_mb": 34708,
     "mem_total_mb": 81920,
-    "util_gpu": 85,
-    "temp_c": 69,
+    "util_gpu": 92,
+    "temp_c": 74,
     "procs": [
      {
       "pid": 1209327,
@@ -30,40 +30,25 @@
       "mem_mb": 31922,
       "experiment": "other",
       "cmd_short": "experiment.py"
-     },
-     {
-      "pid": 3268918,
-      "owner": "xieyuxuan",
-      "mem_mb": 8642,
-      "experiment": "other",
-      "cmd_short": "python"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22354,
+    "mem_used_mb": 126,
     "mem_total_mb": 40960,
-    "util_gpu": 97,
-    "temp_c": 72,
-    "procs": [
-     {
-      "pid": 3137586,
-      "owner": "wangguoyan",
-      "mem_mb": 22222,
-      "experiment": "other",
-      "cmd_short": "experiment.py"
-     }
-    ]
+    "util_gpu": 0,
+    "temp_c": 48,
+    "procs": []
    },
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 22248,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 63,
+    "util_gpu": 92,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 3183454,
@@ -79,8 +64,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22248,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 61,
+    "util_gpu": 100,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 3167345,
@@ -93,10 +78,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 96% 42/80GB 70C",
-   "GPU1 100% 22/40GB 70C",
-   "GPU2 23% 22/80GB 62C",
-   "GPU3 0% 22/40GB 61C"
+   "GPU0 92% 34/80GB 75C",
+   "GPU1 0% 0/40GB 48C",
+   "GPU2 92% 22/80GB 75C",
+   "GPU3 93% 22/40GB 68C"
   ],
   "source": 30,
   "producer": 30,
@@ -134,16 +119,6 @@
      "who": "other",
      "desc": "experiment_runner_v2.py"
     },
-    {
-     "who": "other",
-     "desc": "wangguoyan python"
-    },
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    }
-   ],
-   "gpu1": [
     {
      "who": "other",
      "desc": "wangguoyan python"
