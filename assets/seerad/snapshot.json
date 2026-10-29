@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-30 02:50:38",
+  "ts": "2026-10-30 03:00:51",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 58323,
+    "mem_used_mb": 33655,
     "mem_total_mb": 81920,
-    "util_gpu": 95,
-    "temp_c": 82,
+    "util_gpu": 97,
+    "temp_c": 80,
     "procs": [
      {
       "pid": 1209327,
@@ -25,18 +25,18 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 3341949,
-      "owner": "xieyuxuan",
-      "mem_mb": 33310,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
       "pid": 3375222,
       "owner": "wangguoyan",
       "mem_mb": 22222,
       "experiment": "other",
       "cmd_short": "experiment.py"
+     },
+     {
+      "pid": 3938502,
+      "owner": "xieyuxuan",
+      "mem_mb": 8642,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -45,7 +45,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22356,
     "mem_total_mb": 40960,
-    "util_gpu": 94,
+    "util_gpu": 100,
     "temp_c": 78,
     "procs": [
      {
@@ -63,7 +63,7 @@
     "mem_used_mb": 8668,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 57,
+    "temp_c": 58,
     "procs": [
      {
       "pid": 3902573,
@@ -79,7 +79,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22248,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
+    "util_gpu": 99,
     "temp_c": 77,
     "procs": [
      {
@@ -93,10 +93,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 57/80GB 82C",
-   "GPU1 100% 22/40GB 78C",
-   "GPU2 0% 8/80GB 57C",
-   "GPU3 96% 22/40GB 77C"
+   "GPU0 98% 33/80GB 80C",
+   "GPU1 100% 22/40GB 79C",
+   "GPU2 0% 8/80GB 58C",
+   "GPU3 100% 22/40GB 77C"
   ],
   "source": 30,
   "producer": 30,
@@ -136,11 +136,11 @@
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     },
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     }
    ],
    "gpu1": [
