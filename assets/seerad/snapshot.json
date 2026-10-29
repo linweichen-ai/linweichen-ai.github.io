@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-10-30 07:45:22",
+  "ts": "2026-10-30 07:55:33",
   "gpus": [
    {
     "index": 0,
@@ -48,10 +48,10 @@
     "mem_used_mb": 8668,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 57,
+    "temp_c": 60,
     "procs": [
      {
-      "pid": 4108687,
+      "pid": 4150734,
       "owner": "xieyuxuan",
       "mem_mb": 8642,
       "experiment": "other",
@@ -70,9 +70,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 35/80GB 80C",
+   "GPU0 37% 35/80GB 80C",
    "GPU1 0% 0/40GB 54C",
-   "GPU2 0% 8/80GB 57C",
+   "GPU2 40% 8/80GB 58C",
    "GPU3 0% 0/40GB 53C"
   ],
   "source": 30,
