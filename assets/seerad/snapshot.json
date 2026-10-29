@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-29 22:02:59",
+  "ts": "2026-10-29 22:13:17",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 61194,
+    "mem_used_mb": 61234,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 73,
+    "util_gpu": 96,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 1209327,
@@ -62,7 +62,7 @@
      {
       "pid": 3639774,
       "owner": "zhangxiaohan",
-      "mem_mb": 682,
+      "mem_mb": 722,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -73,8 +73,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 32044,
     "mem_total_mb": 40960,
-    "util_gpu": 10,
-    "temp_c": 56,
+    "util_gpu": 0,
+    "temp_c": 64,
     "procs": [
      {
       "pid": 3481865,
@@ -88,10 +88,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 33336,
+    "mem_used_mb": 36210,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 57,
+    "temp_c": 58,
     "procs": [
      {
       "pid": 3341950,
@@ -99,6 +99,13 @@
       "mem_mb": 33310,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 3670389,
+      "owner": "cenzihan",
+      "mem_mb": 2866,
+      "experiment": "other",
+      "cmd_short": "evaluate_flat_policy.py"
      }
     ]
    },
@@ -107,8 +114,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 71,
-    "temp_c": 64,
+    "util_gpu": 86,
+    "temp_c": 67,
     "procs": [
      {
       "pid": 3338791,
@@ -121,10 +128,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 60/80GB 73C",
-   "GPU1 12% 31/40GB 56C",
-   "GPU2 8% 33/80GB 62C",
-   "GPU3 74% 33/40GB 66C"
+   "GPU0 78% 60/80GB 66C",
+   "GPU1 8% 31/40GB 63C",
+   "GPU2 0% 35/80GB 58C",
+   "GPU3 100% 33/40GB 65C"
   ],
   "source": 30,
   "producer": 30,
@@ -197,6 +204,10 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
+    },
+    {
+     "who": "other",
+     "desc": "cenzihan python"
     }
    ],
    "gpu3": [
