@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-10-30 04:22:08",
+  "ts": "2026-10-30 04:32:18",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 11428,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 57,
+    "temp_c": 56,
     "procs": [
      {
       "pid": 1209327,
@@ -36,19 +36,11 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22356,
+    "mem_used_mb": 126,
     "mem_total_mb": 40960,
     "util_gpu": 0,
-    "temp_c": 72,
-    "procs": [
-     {
-      "pid": 3859680,
-      "owner": "wangguoyan",
-      "mem_mb": 22224,
-      "experiment": "other",
-      "cmd_short": "experiment.py"
-     }
-    ]
+    "temp_c": 54,
+    "procs": []
    },
    {
     "index": 2,
@@ -78,8 +70,8 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 11/80GB 57C",
-   "GPU1 0% 22/40GB 72C",
+   "GPU0 0% 11/80GB 56C",
+   "GPU1 0% 0/40GB 54C",
    "GPU2 100% 33/80GB 81C",
    "GPU3 0% 0/40GB 53C"
   ],
@@ -122,12 +114,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    }
-   ],
-   "gpu1": [
-    {
-     "who": "other",
-     "desc": "wangguoyan python"
     }
    ],
    "gpu2": [
