@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-10-29 22:33:59",
+  "ts": "2026-10-29 22:44:19",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 61234,
+    "mem_used_mb": 61594,
     "mem_total_mb": 81920,
-    "util_gpu": 99,
+    "util_gpu": 98,
     "temp_c": 72,
     "procs": [
      {
@@ -39,30 +39,30 @@
       "cmd_short": "experiment.py"
      },
      {
-      "pid": 3639778,
+      "pid": 3717775,
       "owner": "zhangxiaohan",
-      "mem_mb": 722,
+      "mem_mb": 812,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 3639780,
+      "pid": 3717781,
       "owner": "zhangxiaohan",
-      "mem_mb": 722,
+      "mem_mb": 812,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 3639777,
+      "pid": 3717779,
       "owner": "zhangxiaohan",
-      "mem_mb": 722,
+      "mem_mb": 812,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 3639774,
+      "pid": 3717780,
       "owner": "zhangxiaohan",
-      "mem_mb": 722,
+      "mem_mb": 812,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -71,10 +71,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 34917,
+    "mem_used_mb": 34908,
     "mem_total_mb": 40960,
-    "util_gpu": 38,
-    "temp_c": 55,
+    "util_gpu": 88,
+    "temp_c": 70,
     "procs": [
      {
       "pid": 3481865,
@@ -95,10 +95,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 43896,
+    "mem_used_mb": 46122,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 58,
+    "util_gpu": 100,
+    "temp_c": 71,
     "procs": [
      {
       "pid": 3341950,
@@ -110,7 +110,7 @@
      {
       "pid": 3702548,
       "owner": "wangguoyan",
-      "mem_mb": 10554,
+      "mem_mb": 12780,
       "experiment": "other",
       "cmd_short": "experiment.py"
      }
@@ -121,8 +121,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 66,
+    "util_gpu": 0,
+    "temp_c": 60,
     "procs": [
      {
       "pid": 3338791,
@@ -135,10 +135,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 60/80GB 71C",
-   "GPU1 100% 34/40GB 61C",
-   "GPU2 0% 43/80GB 58C",
-   "GPU3 74% 33/40GB 62C"
+   "GPU0 98% 60/80GB 72C",
+   "GPU1 100% 34/40GB 70C",
+   "GPU2 100% 45/80GB 71C",
+   "GPU3 0% 33/40GB 60C"
   ],
   "source": 30,
   "producer": 30,
