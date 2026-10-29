@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-29 23:25:37",
+  "ts": "2026-10-29 23:35:56",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 58323,
+    "mem_used_mb": 62951,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 72,
+    "util_gpu": 98,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -37,16 +37,58 @@
       "mem_mb": 22222,
       "experiment": "other",
       "cmd_short": "experiment.py"
+     },
+     {
+      "pid": 3765953,
+      "owner": "zhangxiaohan",
+      "mem_mb": 766,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3765956,
+      "owner": "zhangxiaohan",
+      "mem_mb": 766,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3765957,
+      "owner": "zhangxiaohan",
+      "mem_mb": 766,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3765959,
+      "owner": "zhangxiaohan",
+      "mem_mb": 766,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3765960,
+      "owner": "zhangxiaohan",
+      "mem_mb": 766,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3765958,
+      "owner": "zhangxiaohan",
+      "mem_mb": 764,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 32044,
+    "mem_used_mb": 32034,
     "mem_total_mb": 40960,
-    "util_gpu": 89,
-    "temp_c": 76,
+    "util_gpu": 0,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 3481865,
@@ -62,8 +104,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 46122,
     "mem_total_mb": 81920,
-    "util_gpu": 80,
-    "temp_c": 73,
+    "util_gpu": 0,
+    "temp_c": 71,
     "procs": [
      {
       "pid": 3341950,
@@ -86,8 +128,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33526,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 71,
+    "util_gpu": 83,
+    "temp_c": 70,
     "procs": [
      {
       "pid": 3338791,
@@ -100,10 +142,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 57/80GB 71C",
-   "GPU1 100% 31/40GB 76C",
-   "GPU2 42% 45/80GB 71C",
-   "GPU3 95% 33/40GB 72C"
+   "GPU0 96% 61/80GB 76C",
+   "GPU1 0% 31/40GB 66C",
+   "GPU2 24% 45/80GB 76C",
+   "GPU3 87% 33/40GB 70C"
   ],
   "source": 30,
   "producer": 30,
@@ -148,6 +190,30 @@
     {
      "who": "other",
      "desc": "wangguoyan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
+    },
+    {
+     "who": "other",
+     "desc": "zhangxiaohan python"
     }
    ],
    "gpu1": [
