@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-30 11:08:33",
+  "ts": "2026-10-30 11:18:43",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 39039,
+    "mem_used_mb": 39023,
     "mem_total_mb": 81920,
-    "util_gpu": 89,
-    "temp_c": 77,
+    "util_gpu": 88,
+    "temp_c": 72,
     "procs": [
      {
       "pid": 1209327,
@@ -25,16 +25,16 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 19536,
+      "pid": 143082,
       "owner": "xieyuxuan",
       "mem_mb": 8642,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 140126,
+      "pid": 153877,
       "owner": "wangguoyan",
-      "mem_mb": 27606,
+      "mem_mb": 27590,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -43,15 +43,15 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 27798,
+    "mem_used_mb": 27780,
     "mem_total_mb": 40960,
-    "util_gpu": 90,
-    "temp_c": 77,
+    "util_gpu": 85,
+    "temp_c": 70,
     "procs": [
      {
-      "pid": 140128,
+      "pid": 153879,
       "owner": "wangguoyan",
-      "mem_mb": 27666,
+      "mem_mb": 27648,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -60,10 +60,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 54748,
+    "mem_used_mb": 54728,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 80,
+    "temp_c": 82,
     "procs": [
      {
       "pid": 4179941,
@@ -73,9 +73,9 @@
       "cmd_short": "python"
      },
      {
-      "pid": 140129,
+      "pid": 153880,
       "owner": "wangguoyan",
-      "mem_mb": 21406,
+      "mem_mb": 21386,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -84,15 +84,15 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 27690,
+    "mem_used_mb": 27680,
     "mem_total_mb": 40960,
-    "util_gpu": 16,
-    "temp_c": 72,
+    "util_gpu": 79,
+    "temp_c": 70,
     "procs": [
      {
-      "pid": 140127,
+      "pid": 153878,
       "owner": "wangguoyan",
-      "mem_mb": 27666,
+      "mem_mb": 27656,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -100,10 +100,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 38/80GB 77C",
-   "GPU1 95% 27/40GB 78C",
-   "GPU2 100% 53/80GB 81C",
-   "GPU3 95% 27/40GB 73C"
+   "GPU0 100% 38/80GB 73C",
+   "GPU1 100% 27/40GB 69C",
+   "GPU2 99% 53/80GB 81C",
+   "GPU3 100% 27/40GB 70C"
   ],
   "source": 30,
   "producer": 30,
