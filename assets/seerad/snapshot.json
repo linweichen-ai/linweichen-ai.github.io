@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-30 11:18:43",
+  "ts": "2026-10-30 11:28:52",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 39023,
+    "mem_used_mb": 39039,
     "mem_total_mb": 81920,
-    "util_gpu": 88,
-    "temp_c": 72,
+    "util_gpu": 0,
+    "temp_c": 66,
     "procs": [
      {
       "pid": 1209327,
@@ -32,9 +32,9 @@
       "cmd_short": "python"
      },
      {
-      "pid": 153877,
+      "pid": 159758,
       "owner": "wangguoyan",
-      "mem_mb": 27590,
+      "mem_mb": 27606,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -43,15 +43,15 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 27780,
+    "mem_used_mb": 29978,
     "mem_total_mb": 40960,
-    "util_gpu": 85,
-    "temp_c": 70,
+    "util_gpu": 100,
+    "temp_c": 78,
     "procs": [
      {
-      "pid": 153879,
+      "pid": 159760,
       "owner": "wangguoyan",
-      "mem_mb": 27648,
+      "mem_mb": 29846,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -60,10 +60,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 54728,
+    "mem_used_mb": 61008,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 82,
+    "temp_c": 80,
     "procs": [
      {
       "pid": 4179941,
@@ -73,9 +73,9 @@
       "cmd_short": "python"
      },
      {
-      "pid": 153880,
+      "pid": 159761,
       "owner": "wangguoyan",
-      "mem_mb": 21386,
+      "mem_mb": 27666,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -84,15 +84,15 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 27680,
+    "mem_used_mb": 21430,
     "mem_total_mb": 40960,
-    "util_gpu": 79,
-    "temp_c": 70,
+    "util_gpu": 0,
+    "temp_c": 65,
     "procs": [
      {
-      "pid": 153878,
+      "pid": 159759,
       "owner": "wangguoyan",
-      "mem_mb": 27656,
+      "mem_mb": 21406,
       "experiment": "other",
       "cmd_short": "engine.py"
      }
@@ -100,10 +100,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 38/80GB 73C",
-   "GPU1 100% 27/40GB 69C",
-   "GPU2 99% 53/80GB 81C",
-   "GPU3 100% 27/40GB 70C"
+   "GPU0 0% 38/80GB 71C",
+   "GPU1 88% 29/40GB 79C",
+   "GPU2 100% 60/80GB 81C",
+   "GPU3 0% 21/40GB 65C"
   ],
   "source": 30,
   "producer": 30,
