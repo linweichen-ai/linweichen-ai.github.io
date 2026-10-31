@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-01 02:59:22",
+  "ts": "2026-11-01 03:09:32",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 69915,
     "mem_total_mb": 81920,
-    "util_gpu": 98,
-    "temp_c": 72,
+    "util_gpu": 100,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 1209327,
@@ -45,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 98,
-    "temp_c": 73,
+    "util_gpu": 100,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 2403887,
@@ -91,18 +91,11 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 7158,
+    "mem_used_mb": 3588,
     "mem_total_mb": 40960,
-    "util_gpu": 98,
-    "temp_c": 58,
+    "util_gpu": 38,
+    "temp_c": 53,
     "procs": [
-     {
-      "pid": 2187646,
-      "owner": "zhangzhe",
-      "mem_mb": 3564,
-      "experiment": "other",
-      "cmd_short": "a100_seed28_suite.py"
-     },
      {
       "pid": 2287368,
       "owner": "zhangzhe",
@@ -114,10 +107,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 56% 68/80GB 71C",
-   "GPU1 98% 33/40GB 73C",
+   "GPU0 100% 68/80GB 78C",
+   "GPU1 100% 33/40GB 76C",
    "GPU2 100% 66/80GB 81C",
-   "GPU3 98% 7/40GB 58C"
+   "GPU3 39% 4/40GB 53C"
   ],
   "source": 30,
   "producer": 30,
@@ -185,10 +178,6 @@
     }
    ],
    "gpu3": [
-    {
-     "who": "other",
-     "desc": "zhangzhe python"
-    },
     {
      "who": "other",
      "desc": "zhangzhe python"
