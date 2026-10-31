@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-01 02:18:42",
+  "ts": "2026-11-01 02:28:52",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 69915,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 80,
+    "temp_c": 81,
     "procs": [
      {
       "pid": 1209327,
@@ -43,15 +43,15 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 32774,
+    "mem_used_mb": 26072,
     "mem_total_mb": 40960,
-    "util_gpu": 14,
-    "temp_c": 75,
+    "util_gpu": 0,
+    "temp_c": 66,
     "procs": [
      {
-      "pid": 2134116,
+      "pid": 2403887,
       "owner": "wangguoyan",
-      "mem_mb": 32642,
+      "mem_mb": 25940,
       "experiment": "other",
       "cmd_short": "resource_ops.py"
      }
@@ -93,7 +93,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 15803,
     "mem_total_mb": 40960,
-    "util_gpu": 96,
+    "util_gpu": 93,
     "temp_c": 60,
     "procs": [
      {
@@ -121,10 +121,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 68/80GB 80C",
-   "GPU1 69% 32/40GB 77C",
+   "GPU0 100% 68/80GB 81C",
+   "GPU1 0% 25/40GB 66C",
    "GPU2 100% 58/80GB 81C",
-   "GPU3 97% 15/40GB 60C"
+   "GPU3 93% 15/40GB 60C"
   ],
   "source": 30,
   "producer": 30,
