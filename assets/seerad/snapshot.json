@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-31 21:53:09",
+  "ts": "2026-10-31 22:03:18",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 69853,
+    "mem_used_mb": 69855,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 77,
+    "util_gpu": 88,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -34,7 +34,7 @@
      {
       "pid": 2178190,
       "owner": "wangguoyan",
-      "mem_mb": 33560,
+      "mem_mb": 33562,
       "experiment": "other",
       "cmd_short": "resource_ops.py"
      }
@@ -45,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 32774,
     "mem_total_mb": 40960,
-    "util_gpu": 76,
-    "temp_c": 72,
+    "util_gpu": 100,
+    "temp_c": 74,
     "procs": [
      {
       "pid": 2134116,
@@ -63,7 +63,7 @@
     "mem_used_mb": 50641,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 78,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 2153163,
@@ -91,10 +91,10 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 15799,
+    "mem_used_mb": 12234,
     "mem_total_mb": 40960,
-    "util_gpu": 92,
-    "temp_c": 57,
+    "util_gpu": 71,
+    "temp_c": 59,
     "procs": [
      {
       "pid": 2124325,
@@ -102,13 +102,6 @@
       "mem_mb": 8642,
       "experiment": "other",
       "cmd_short": "python"
-     },
-     {
-      "pid": 2150721,
-      "owner": "zhangzhe",
-      "mem_mb": 3560,
-      "experiment": "other",
-      "cmd_short": "a100_seed28_suite.py"
      },
      {
       "pid": 2158455,
@@ -121,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 68/80GB 76C",
-   "GPU1 76% 32/40GB 73C",
-   "GPU2 100% 49/80GB 78C",
-   "GPU3 94% 15/40GB 57C"
+   "GPU0 100% 68/80GB 77C",
+   "GPU1 100% 32/40GB 73C",
+   "GPU2 83% 49/80GB 78C",
+   "GPU3 71% 12/40GB 56C"
   ],
   "source": 30,
   "producer": 30,
@@ -195,10 +188,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    },
-    {
-     "who": "other",
-     "desc": "zhangzhe python"
     },
     {
      "who": "other",
