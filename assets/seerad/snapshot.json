@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-31 16:07:03",
+  "ts": "2026-10-31 16:17:14",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 69855,
     "mem_total_mb": 81920,
-    "util_gpu": 99,
-    "temp_c": 79,
+    "util_gpu": 100,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 1209327,
@@ -43,10 +43,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 32774,
+    "mem_used_mb": 33471,
     "mem_total_mb": 40960,
-    "util_gpu": 56,
-    "temp_c": 67,
+    "util_gpu": 92,
+    "temp_c": 72,
     "procs": [
      {
       "pid": 1552095,
@@ -54,6 +54,13 @@
       "mem_mb": 32642,
       "experiment": "other",
       "cmd_short": "resource_ops.py"
+     },
+     {
+      "pid": 1702178,
+      "owner": "tongzhaoyang",
+      "mem_mb": 682,
+      "experiment": "other",
+      "cmd_short": "main.py"
      }
     ]
    },
@@ -63,7 +70,7 @@
     "mem_used_mb": 67159,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 79,
+    "temp_c": 80,
     "procs": [
      {
       "pid": 1519370,
@@ -94,7 +101,7 @@
     "mem_used_mb": 30824,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 74,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 1520461,
@@ -107,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 68/80GB 79C",
-   "GPU1 16% 32/40GB 66C",
+   "GPU0 100% 68/80GB 78C",
+   "GPU1 96% 33/40GB 72C",
    "GPU2 100% 66/80GB 80C",
-   "GPU3 87% 30/40GB 75C"
+   "GPU3 100% 30/40GB 75C"
   ],
   "source": 30,
   "producer": 30,
@@ -161,6 +168,10 @@
     {
      "who": "other",
      "desc": "wangguoyan python"
+    },
+    {
+     "who": "other",
+     "desc": "tongzhaoyang python3.8"
     }
    ],
    "gpu2": [
