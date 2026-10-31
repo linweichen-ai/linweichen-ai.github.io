@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-31 11:32:22",
+  "ts": "2026-10-31 11:42:32",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 2780,
+    "mem_used_mb": 69781,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 58,
+    "util_gpu": 100,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 1209327,
@@ -23,6 +23,20 @@
       "mem_mb": 1310,
       "experiment": "other",
       "cmd_short": "experiment_runner_v2.py"
+     },
+     {
+      "pid": 1422764,
+      "owner": "wangguoyan",
+      "mem_mb": 33500,
+      "experiment": "other",
+      "cmd_short": "engine.py"
+     },
+     {
+      "pid": 1428065,
+      "owner": "wangguoyan",
+      "mem_mb": 33490,
+      "experiment": "other",
+      "cmd_short": "resource_ops.py"
      }
     ]
    },
@@ -31,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 25234,
     "mem_total_mb": 40960,
-    "util_gpu": 44,
-    "temp_c": 76,
+    "util_gpu": 94,
+    "temp_c": 64,
     "procs": [
      {
       "pid": 1372077,
@@ -46,17 +60,24 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 33528,
+    "mem_used_mb": 60244,
     "mem_total_mb": 81920,
-    "util_gpu": 32,
-    "temp_c": 69,
+    "util_gpu": 89,
+    "temp_c": 80,
     "procs": [
      {
-      "pid": 1187392,
+      "pid": 1424774,
       "owner": "wangguoyan",
-      "mem_mb": 33502,
+      "mem_mb": 33542,
       "experiment": "other",
       "cmd_short": "engine.py"
+     },
+     {
+      "pid": 1428066,
+      "owner": "wangguoyan",
+      "mem_mb": 26670,
+      "experiment": "other",
+      "cmd_short": "resource_ops.py"
      }
     ]
    },
@@ -71,9 +92,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 3/80GB 58C",
-   "GPU1 100% 25/40GB 75C",
-   "GPU2 26% 33/80GB 74C",
+   "GPU0 100% 68/80GB 78C",
+   "GPU1 67% 25/40GB 64C",
+   "GPU2 100% 59/80GB 79C",
    "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
@@ -111,6 +132,14 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
+    },
+    {
+     "who": "other",
+     "desc": "wangguoyan python"
+    },
+    {
+     "who": "other",
+     "desc": "wangguoyan python"
     }
    ],
    "gpu1": [
@@ -120,6 +149,10 @@
     }
    ],
    "gpu2": [
+    {
+     "who": "other",
+     "desc": "wangguoyan python"
+    },
     {
      "who": "other",
      "desc": "wangguoyan python"
