@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-10-31 11:22:13",
+  "ts": "2026-10-31 11:32:22",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 36290,
+    "mem_used_mb": 2780,
     "mem_total_mb": 81920,
-    "util_gpu": 15,
-    "temp_c": 66,
+    "util_gpu": 0,
+    "temp_c": 58,
     "procs": [
      {
       "pid": 1209327,
@@ -23,13 +23,6 @@
       "mem_mb": 1310,
       "experiment": "other",
       "cmd_short": "experiment_runner_v2.py"
-     },
-     {
-      "pid": 1112380,
-      "owner": "wangguoyan",
-      "mem_mb": 33502,
-      "experiment": "other",
-      "cmd_short": "engine.py"
      }
     ]
    },
@@ -38,8 +31,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 25234,
     "mem_total_mb": 40960,
-    "util_gpu": 84,
-    "temp_c": 72,
+    "util_gpu": 44,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1372077,
@@ -55,8 +48,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 33528,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 77,
+    "util_gpu": 32,
+    "temp_c": 69,
     "procs": [
      {
       "pid": 1187392,
@@ -70,26 +63,18 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 25126,
+    "mem_used_mb": 19,
     "mem_total_mb": 40960,
-    "util_gpu": 80,
-    "temp_c": 66,
-    "procs": [
-     {
-      "pid": 1242160,
-      "owner": "wangguoyan",
-      "mem_mb": 25102,
-      "experiment": "other",
-      "cmd_short": "engine.py"
-     }
-    ]
+    "util_gpu": 0,
+    "temp_c": 49,
+    "procs": []
    }
   ],
   "gpus_text": [
-   "GPU0 52% 35/80GB 71C",
-   "GPU1 100% 25/40GB 70C",
-   "GPU2 100% 33/80GB 76C",
-   "GPU3 100% 25/40GB 67C"
+   "GPU0 0% 3/80GB 58C",
+   "GPU1 100% 25/40GB 75C",
+   "GPU2 26% 33/80GB 74C",
+   "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
   "producer": 30,
@@ -126,10 +111,6 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
-    },
-    {
-     "who": "other",
-     "desc": "wangguoyan python"
     }
    ],
    "gpu1": [
@@ -139,12 +120,6 @@
     }
    ],
    "gpu2": [
-    {
-     "who": "other",
-     "desc": "wangguoyan python"
-    }
-   ],
-   "gpu3": [
     {
      "who": "other",
      "desc": "wangguoyan python"
