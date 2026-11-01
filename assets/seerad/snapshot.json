@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 01:51:53",
+  "ts": "2026-11-02 02:02:03",
   "gpus": [
    {
     "index": 0,
@@ -29,19 +29,11 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33694,
+    "mem_used_mb": 126,
     "mem_total_mb": 40960,
-    "util_gpu": 17,
-    "temp_c": 66,
-    "procs": [
-     {
-      "pid": 3308546,
-      "owner": "wangguoyan",
-      "mem_mb": 33562,
-      "experiment": "other",
-      "cmd_short": "resource_ops.py"
-     }
-    ]
+    "util_gpu": 0,
+    "temp_c": 51,
+    "procs": []
    },
    {
     "index": 2,
@@ -49,7 +41,7 @@
     "mem_used_mb": 8669,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 57,
+    "temp_c": 55,
     "procs": [
      {
       "pid": 3633971,
@@ -65,8 +57,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 14149,
     "mem_total_mb": 40960,
-    "util_gpu": 97,
-    "temp_c": 59,
+    "util_gpu": 95,
+    "temp_c": 58,
     "procs": [
      {
       "pid": 3423137,
@@ -83,7 +75,7 @@
       "cmd_short": "a100_seed28_fresh_nine_v2.py"
      },
      {
-      "pid": 3629121,
+      "pid": 3648445,
       "owner": "xieyuxuan",
       "mem_mb": 6974,
       "experiment": "other",
@@ -94,9 +86,9 @@
   ],
   "gpus_text": [
    "GPU0 0% 3/80GB 52C",
-   "GPU1 19% 33/40GB 66C",
-   "GPU2 0% 8/80GB 59C",
-   "GPU3 93% 14/40GB 59C"
+   "GPU1 0% 0/40GB 51C",
+   "GPU2 0% 8/80GB 55C",
+   "GPU3 98% 14/40GB 58C"
   ],
   "source": 30,
   "producer": 30,
@@ -133,12 +125,6 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
-    }
-   ],
-   "gpu1": [
-    {
-     "who": "other",
-     "desc": "wangguoyan python"
     }
    ],
    "gpu2": [
