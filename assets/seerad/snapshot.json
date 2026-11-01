@@ -1,11 +1,11 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 02:12:12",
+  "ts": "2026-11-02 02:22:22",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 2791,
+    "mem_used_mb": 2780,
     "mem_total_mb": 81920,
     "util_gpu": 0,
     "temp_c": 52,
@@ -38,22 +38,15 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 9136,
+    "mem_used_mb": 33337,
     "mem_total_mb": 81920,
-    "util_gpu": 46,
-    "temp_c": 68,
+    "util_gpu": 94,
+    "temp_c": 80,
     "procs": [
      {
-      "pid": 3656189,
+      "pid": 3665126,
       "owner": "xieyuxuan",
-      "mem_mb": 8642,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 3656897,
-      "owner": "xieyuxuan",
-      "mem_mb": 453,
+      "mem_mb": 33310,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -64,16 +57,9 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 14149,
     "mem_total_mb": 40960,
-    "util_gpu": 96,
-    "temp_c": 58,
+    "util_gpu": 71,
+    "temp_c": 57,
     "procs": [
-     {
-      "pid": 3423137,
-      "owner": "zhangzhe",
-      "mem_mb": 3568,
-      "experiment": "other",
-      "cmd_short": "a100_seed28_fresh_nine_v2.py"
-     },
      {
       "pid": 3424315,
       "owner": "zhangzhe",
@@ -87,6 +73,13 @@
       "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 3664570,
+      "owner": "zhangzhe",
+      "mem_mb": 3568,
+      "experiment": "other",
+      "cmd_short": "a100_seed28_fresh_nine_v2.py"
      }
     ]
    }
@@ -94,8 +87,8 @@
   "gpus_text": [
    "GPU0 0% 3/80GB 52C",
    "GPU1 0% 0/40GB 51C",
-   "GPU2 52% 9/80GB 66C",
-   "GPU3 97% 14/40GB 58C"
+   "GPU2 100% 33/80GB 80C",
+   "GPU3 84% 14/40GB 57C"
   ],
   "source": 30,
   "producer": 30,
@@ -138,10 +131,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    },
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
     }
    ],
    "gpu3": [
@@ -151,11 +140,11 @@
     },
     {
      "who": "other",
-     "desc": "zhangzhe python"
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "zhangzhe python"
     }
    ]
   },
