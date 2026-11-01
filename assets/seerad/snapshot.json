@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-01 08:34:53",
+  "ts": "2026-11-01 08:45:03",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 69893,
+    "mem_used_mb": 68995,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 76,
+    "util_gpu": 14,
+    "temp_c": 69,
     "procs": [
      {
       "pid": 1209327,
@@ -34,7 +34,7 @@
      {
       "pid": 2665232,
       "owner": "wangguoyan",
-      "mem_mb": 33540,
+      "mem_mb": 32642,
       "experiment": "other",
       "cmd_short": "resource_ops.py"
      }
@@ -99,9 +99,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 68/80GB 75C",
-   "GPU1 99% 32/40GB 75C",
-   "GPU2 100% 58/80GB 80C",
+   "GPU0 75% 67/80GB 75C",
+   "GPU1 100% 32/40GB 74C",
+   "GPU2 100% 58/80GB 79C",
    "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
