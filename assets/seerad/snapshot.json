@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 02:52:52",
+  "ts": "2026-11-02 03:03:02",
   "gpus": [
    {
     "index": 0,
@@ -55,18 +55,11 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 14337,
+    "mem_used_mb": 10576,
     "mem_total_mb": 40960,
-    "util_gpu": 81,
-    "temp_c": 60,
+    "util_gpu": 22,
+    "temp_c": 55,
     "procs": [
-     {
-      "pid": 3424315,
-      "owner": "zhangzhe",
-      "mem_mb": 3568,
-      "experiment": "other",
-      "cmd_short": "a100_seed28_fresh_nine_v2.py"
-     },
      {
       "pid": 3648445,
       "owner": "xieyuxuan",
@@ -88,7 +81,7 @@
    "GPU0 0% 3/80GB 52C",
    "GPU1 0% 0/40GB 51C",
    "GPU2 100% 33/80GB 80C",
-   "GPU3 90% 14/40GB 58C"
+   "GPU3 19% 10/40GB 55C"
   ],
   "source": 30,
   "producer": 30,
@@ -134,10 +127,6 @@
     }
    ],
    "gpu3": [
-    {
-     "who": "other",
-     "desc": "zhangzhe python"
-    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
