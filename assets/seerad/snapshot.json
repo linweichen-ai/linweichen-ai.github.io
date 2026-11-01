@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-01 15:21:35",
+  "ts": "2026-11-01 15:31:45",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 68995,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 77,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -45,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 74,
+    "util_gpu": 53,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 2980739,
@@ -63,7 +63,7 @@
     "mem_used_mb": 21,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 52,
+    "temp_c": 53,
     "procs": []
    },
    {
@@ -72,17 +72,17 @@
     "mem_used_mb": 7150,
     "mem_total_mb": 40960,
     "util_gpu": 94,
-    "temp_c": 58,
+    "temp_c": 59,
     "procs": [
      {
-      "pid": 3041235,
+      "pid": 3085088,
       "owner": "zhangzhe",
       "mem_mb": 3560,
       "experiment": "other",
       "cmd_short": "a100_seed28_remaining.py"
      },
      {
-      "pid": 3044803,
+      "pid": 3087409,
       "owner": "zhangzhe",
       "mem_mb": 3560,
       "experiment": "other",
@@ -93,9 +93,9 @@
   ],
   "gpus_text": [
    "GPU0 100% 67/80GB 76C",
-   "GPU1 100% 33/40GB 76C",
-   "GPU2 0% 0/80GB 52C",
-   "GPU3 95% 7/40GB 58C"
+   "GPU1 53% 33/40GB 77C",
+   "GPU2 0% 0/80GB 53C",
+   "GPU3 94% 7/40GB 59C"
   ],
   "source": 30,
   "producer": 30,
