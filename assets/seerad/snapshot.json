@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 06:56:30",
+  "ts": "2026-11-02 07:06:39",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 2780,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 52,
+    "temp_c": 53,
     "procs": [
      {
       "pid": 1209327,
@@ -50,12 +50,12 @@
     "mem_used_mb": 19262,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 73,
+    "temp_c": 74,
     "procs": [
      {
       "pid": 3788711,
       "owner": "xieyuxuan",
-      "mem_mb": 11562,
+      "mem_mb": 19232,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -63,10 +63,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 3/80GB 52C",
+   "GPU0 0% 3/80GB 53C",
    "GPU1 0% 0/40GB 52C",
    "GPU2 0% 0/80GB 52C",
-   "GPU3 97% 11/40GB 71C"
+   "GPU3 100% 19/40GB 74C"
   ],
   "source": 30,
   "producer": 30,
