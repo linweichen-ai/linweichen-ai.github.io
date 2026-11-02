@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 11:10:09",
+  "ts": "2026-11-02 11:20:17",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 21203,
+    "mem_used_mb": 9985,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
+    "util_gpu": 2,
     "temp_c": 53,
     "procs": [
      {
@@ -32,9 +32,9 @@
       "cmd_short": "python"
      },
      {
-      "pid": 4150141,
+      "pid": 4164400,
       "owner": "xieyuxuan",
-      "mem_mb": 11558,
+      "mem_mb": 326,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -43,7 +43,7 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 126,
+    "mem_used_mb": 136,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 50,
@@ -52,32 +52,24 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 50857,
+    "mem_used_mb": 21,
     "mem_total_mb": 81920,
     "util_gpu": 0,
-    "temp_c": 51,
-    "procs": [
-     {
-      "pid": 4107705,
-      "owner": "sunyusheng",
-      "mem_mb": 50754,
-      "experiment": "other",
-      "cmd_short": "strata"
-     }
-    ]
+    "temp_c": 50,
+    "procs": []
    },
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 7000,
+    "mem_used_mb": 6998,
     "mem_total_mb": 40960,
-    "util_gpu": 0,
-    "temp_c": 52,
+    "util_gpu": 44,
+    "temp_c": 54,
     "procs": [
      {
-      "pid": 4094831,
+      "pid": 4163278,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -85,10 +77,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 21/80GB 53C",
+   "GPU0 39% 10/80GB 54C",
    "GPU1 0% 0/40GB 50C",
-   "GPU2 0% 50/80GB 51C",
-   "GPU3 0% 7/40GB 52C"
+   "GPU2 0% 0/80GB 50C",
+   "GPU3 0% 7/40GB 54C"
   ],
   "source": 30,
   "producer": 30,
@@ -133,12 +125,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    }
-   ],
-   "gpu2": [
-    {
-     "who": "other",
-     "desc": "strata"
     }
    ],
    "gpu3": [
