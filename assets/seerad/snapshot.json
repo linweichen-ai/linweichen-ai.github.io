@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 21:50:57",
+  "ts": "2026-11-02 22:01:07",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 63321,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 81,
+    "temp_c": 82,
     "procs": [
      {
       "pid": 1209327,
@@ -41,7 +41,7 @@
      {
       "pid": 848681,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -50,19 +50,27 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 126,
+    "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 66,
-    "procs": []
+    "util_gpu": 83,
+    "temp_c": 74,
+    "procs": [
+     {
+      "pid": 857594,
+      "owner": "wangguoyan",
+      "mem_mb": 33562,
+      "experiment": "other",
+      "cmd_short": "worker.py"
+     }
+    ]
    },
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 63462,
+    "mem_used_mb": 60694,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 83,
+    "temp_c": 82,
     "procs": [
      {
       "pid": 244003,
@@ -74,7 +82,7 @@
      {
       "pid": 829123,
       "owner": "xieyuxuan",
-      "mem_mb": 22878,
+      "mem_mb": 20110,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -92,7 +100,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 32648,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
+    "util_gpu": 66,
     "temp_c": 69,
     "procs": [
      {
@@ -106,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 62/80GB 81C",
-   "GPU1 4% 0/40GB 66C",
-   "GPU2 100% 62/80GB 83C",
-   "GPU3 100% 32/40GB 69C"
+   "GPU0 100% 62/80GB 82C",
+   "GPU1 48% 33/40GB 78C",
+   "GPU2 100% 59/80GB 82C",
+   "GPU3 75% 32/40GB 69C"
   ],
   "source": 30,
   "producer": 30,
@@ -158,6 +166,12 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
+    }
+   ],
+   "gpu1": [
+    {
+     "who": "other",
+     "desc": "wangguoyan python"
     }
    ],
    "gpu2": [
