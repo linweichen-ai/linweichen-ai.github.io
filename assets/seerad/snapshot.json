@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 06:02:23",
+  "ts": "2026-11-03 06:12:34",
   "gpus": [
    {
     "index": 0,
@@ -45,7 +45,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 65,
+    "util_gpu": 85,
     "temp_c": 77,
     "procs": [
      {
@@ -60,34 +60,34 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 52985,
+    "mem_used_mb": 64361,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 82,
     "procs": [
      {
-      "pid": 244003,
-      "owner": "wangguoyan",
-      "mem_mb": 33562,
-      "experiment": "other",
-      "cmd_short": "worker.py"
-     },
-     {
       "pid": 1032158,
       "owner": "xieyuxuan",
-      "mem_mb": 20110,
+      "mem_mb": 22876,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 1281222,
+      "pid": 1315997,
+      "owner": "wangguoyan",
+      "mem_mb": 33560,
+      "experiment": "other",
+      "cmd_short": "worker.py"
+     },
+     {
+      "pid": 1319956,
       "owner": "xieyuxuan",
       "mem_mb": 7162,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 1281970,
+      "pid": 1320581,
       "owner": "xieyuxuan",
       "mem_mb": 683,
       "experiment": "other",
@@ -101,7 +101,7 @@
     "mem_used_mb": 33586,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 74,
+    "temp_c": 73,
     "procs": [
      {
       "pid": 1102044,
@@ -115,9 +115,9 @@
   ],
   "gpus_text": [
    "GPU0 100% 55/80GB 81C",
-   "GPU1 84% 33/40GB 77C",
-   "GPU2 98% 60/80GB 81C",
-   "GPU3 100% 33/40GB 70C"
+   "GPU1 100% 33/40GB 77C",
+   "GPU2 100% 63/80GB 81C",
+   "GPU3 65% 33/40GB 75C"
   ],
   "source": 30,
   "producer": 30,
@@ -173,11 +173,11 @@
    "gpu2": [
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     },
     {
      "who": "other",
