@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 02:15:28",
+  "ts": "2026-11-03 02:25:40",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 63509,
+    "mem_used_mb": 63321,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 81,
+    "util_gpu": 99,
+    "temp_c": 83,
     "procs": [
      {
       "pid": 1209327,
@@ -41,7 +41,7 @@
      {
       "pid": 1094351,
       "owner": "xieyuxuan",
-      "mem_mb": 6972,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -53,7 +53,7 @@
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 79,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 857594,
@@ -70,7 +70,7 @@
     "mem_used_mb": 73836,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 82,
+    "temp_c": 83,
     "procs": [
      {
       "pid": 244003,
@@ -101,7 +101,7 @@
     "mem_used_mb": 33586,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 76,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 1102044,
@@ -115,9 +115,9 @@
   ],
   "gpus_text": [
    "GPU0 100% 62/80GB 82C",
-   "GPU1 100% 33/40GB 78C",
-   "GPU2 100% 72/80GB 82C",
-   "GPU3 88% 33/40GB 72C"
+   "GPU1 100% 33/40GB 76C",
+   "GPU2 100% 72/80GB 83C",
+   "GPU3 100% 33/40GB 75C"
   ],
   "source": 30,
   "producer": 30,
