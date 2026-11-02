@@ -1,11 +1,11 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 07:34:02",
+  "ts": "2026-11-03 07:44:12",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 47914,
+    "mem_used_mb": 56344,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 79,
@@ -45,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 69,
-    "temp_c": 75,
+    "util_gpu": 64,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 1263809,
@@ -60,24 +60,24 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 53720,
+    "mem_used_mb": 40580,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 79,
+    "temp_c": 74,
     "procs": [
-     {
-      "pid": 1032158,
-      "owner": "xieyuxuan",
-      "mem_mb": 20112,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
      {
       "pid": 1315997,
       "owner": "wangguoyan",
       "mem_mb": 33562,
       "experiment": "other",
       "cmd_short": "worker.py"
+     },
+     {
+      "pid": 1380839,
+      "owner": "xieyuxuan",
+      "mem_mb": 6974,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -86,11 +86,11 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33586,
     "mem_total_mb": 40960,
-    "util_gpu": 71,
-    "temp_c": 70,
+    "util_gpu": 98,
+    "temp_c": 72,
     "procs": [
      {
-      "pid": 1102044,
+      "pid": 1379161,
       "owner": "wangguoyan",
       "mem_mb": 33562,
       "experiment": "other",
@@ -101,9 +101,9 @@
   ],
   "gpus_text": [
    "GPU0 100% 55/80GB 79C",
-   "GPU1 100% 33/40GB 75C",
-   "GPU2 100% 44/80GB 79C",
-   "GPU3 71% 33/40GB 70C"
+   "GPU1 100% 33/40GB 71C",
+   "GPU2 12% 40/80GB 75C",
+   "GPU3 98% 33/40GB 72C"
   ],
   "source": 30,
   "producer": 30,
@@ -159,11 +159,11 @@
    "gpu2": [
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     },
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     }
    ],
    "gpu3": [
