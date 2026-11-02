@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 10:39:39",
+  "ts": "2026-11-02 10:49:48",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 9642,
+    "mem_used_mb": 9662,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
-    "temp_c": 52,
+    "util_gpu": 41,
+    "temp_c": 53,
     "procs": [
      {
       "pid": 1209327,
@@ -25,9 +25,9 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 4076948,
+      "pid": 4113489,
       "owner": "xieyuxuan",
-      "mem_mb": 6858,
+      "mem_mb": 6854,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -45,17 +45,31 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 50857,
+    "mem_used_mb": 52273,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
+    "util_gpu": 6,
     "temp_c": 52,
     "procs": [
      {
-      "pid": 4092648,
+      "pid": 4107705,
       "owner": "sunyusheng",
       "mem_mb": 50754,
       "experiment": "other",
       "cmd_short": "strata"
+     },
+     {
+      "pid": 4116107,
+      "owner": "xieyuxuan",
+      "mem_mb": 683,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 4123298,
+      "owner": "xieyuxuan",
+      "mem_mb": 683,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -65,7 +79,7 @@
     "mem_used_mb": 7000,
     "mem_total_mb": 40960,
     "util_gpu": 0,
-    "temp_c": 54,
+    "temp_c": 53,
     "procs": [
      {
       "pid": 4094831,
@@ -78,10 +92,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 10/80GB 54C",
+   "GPU0 0% 9/80GB 52C",
    "GPU1 0% 0/40GB 50C",
-   "GPU2 0% 50/80GB 52C",
-   "GPU3 0% 7/40GB 54C"
+   "GPU2 2% 51/80GB 52C",
+   "GPU3 0% 7/40GB 53C"
   ],
   "source": 30,
   "producer": 30,
@@ -128,6 +142,14 @@
     {
      "who": "other",
      "desc": "strata"
+    },
+    {
+     "who": "other",
+     "desc": "xieyuxuan python"
+    },
+    {
+     "who": "other",
+     "desc": "xieyuxuan python"
     }
    ],
    "gpu3": [
