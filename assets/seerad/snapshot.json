@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-02 15:54:54",
+  "ts": "2026-11-02 16:05:04",
   "gpus": [
    {
     "index": 0,
@@ -8,7 +8,7 @@
     "mem_used_mb": 63203,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 79,
+    "temp_c": 80,
     "procs": [
      {
       "pid": 1209327,
@@ -50,10 +50,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33704,
+    "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 71,
-    "temp_c": 72,
+    "util_gpu": 100,
+    "temp_c": 74,
     "procs": [
      {
       "pid": 244004,
@@ -67,7 +67,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 73836,
+    "mem_used_mb": 73838,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 80,
@@ -82,7 +82,7 @@
      {
       "pid": 67521,
       "owner": "xieyuxuan",
-      "mem_mb": 11680,
+      "mem_mb": 20112,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -100,31 +100,31 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 19786,
     "mem_total_mb": 40960,
-    "util_gpu": 74,
-    "temp_c": 69,
+    "util_gpu": 44,
+    "temp_c": 66,
     "procs": [
-     {
-      "pid": 244006,
-      "owner": "wangguoyan",
-      "mem_mb": 12780,
-      "experiment": "other",
-      "cmd_short": "worker.py"
-     },
      {
       "pid": 253615,
       "owner": "xieyuxuan",
       "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 279040,
+      "owner": "wangguoyan",
+      "mem_mb": 12780,
+      "experiment": "other",
+      "cmd_short": "worker.py"
      }
     ]
    }
   ],
   "gpus_text": [
-   "GPU0 100% 62/80GB 79C",
-   "GPU1 96% 33/40GB 69C",
-   "GPU2 100% 64/80GB 80C",
-   "GPU3 67% 19/40GB 69C"
+   "GPU0 100% 62/80GB 80C",
+   "GPU1 100% 33/40GB 75C",
+   "GPU2 100% 72/80GB 80C",
+   "GPU3 44% 19/40GB 66C"
   ],
   "source": 30,
   "producer": 30,
@@ -198,11 +198,11 @@
    "gpu3": [
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     }
    ]
   },
