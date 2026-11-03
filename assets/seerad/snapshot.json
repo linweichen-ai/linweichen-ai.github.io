@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 10:57:57",
+  "ts": "2026-11-03 11:08:13",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 51022,
+    "mem_used_mb": 51208,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 73,
+    "util_gpu": 99,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -34,7 +34,7 @@
      {
       "pid": 1535241,
       "owner": "xieyuxuan",
-      "mem_mb": 7160,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -48,7 +48,7 @@
      {
       "pid": 1547486,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 7162,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -59,8 +59,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 88,
-    "temp_c": 73,
+    "util_gpu": 100,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1533642,
@@ -98,22 +98,15 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33718,
+    "mem_used_mb": 26830,
     "mem_total_mb": 40960,
-    "util_gpu": 44,
-    "temp_c": 53,
+    "util_gpu": 0,
+    "temp_c": 49,
     "procs": [
      {
-      "pid": 1525541,
+      "pid": 1560238,
       "owner": "xieyuxuan",
-      "mem_mb": 6990,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 1548527,
-      "owner": "xieyuxuan",
-      "mem_mb": 26688,
+      "mem_mb": 26800,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -121,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 50/80GB 73C",
-   "GPU1 100% 33/40GB 74C",
+   "GPU0 89% 50/80GB 76C",
+   "GPU1 88% 33/40GB 75C",
    "GPU2 100% 39/80GB 78C",
-   "GPU3 3% 33/40GB 53C"
+   "GPU3 0% 26/40GB 49C"
   ],
   "source": 30,
   "producer": 30,
@@ -196,10 +189,6 @@
     }
    ],
    "gpu3": [
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
