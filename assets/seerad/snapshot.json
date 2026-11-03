@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 19:51:52",
+  "ts": "2026-11-03 20:02:05",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 51220,
+    "mem_used_mb": 51222,
     "mem_total_mb": 81920,
-    "util_gpu": 70,
-    "temp_c": 73,
+    "util_gpu": 100,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 1209327,
@@ -59,7 +59,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 92,
+    "util_gpu": 100,
     "temp_c": 79,
     "procs": [
      {
@@ -74,18 +74,11 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 20970,
+    "mem_used_mb": 21439,
     "mem_total_mb": 81920,
-    "util_gpu": 42,
-    "temp_c": 61,
+    "util_gpu": 40,
+    "temp_c": 68,
     "procs": [
-     {
-      "pid": 2062653,
-      "owner": "xieyuxuan",
-      "mem_mb": 6974,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
      {
       "pid": 2070839,
       "owner": "xieyuxuan",
@@ -99,6 +92,20 @@
       "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 2093160,
+      "owner": "xieyuxuan",
+      "mem_mb": 7162,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 2094047,
+      "owner": "xieyuxuan",
+      "mem_mb": 453,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -107,8 +114,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 26936,
     "mem_total_mb": 40960,
-    "util_gpu": 51,
-    "temp_c": 69,
+    "util_gpu": 28,
+    "temp_c": 73,
     "procs": [
      {
       "pid": 1985510,
@@ -121,10 +128,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 84% 50/80GB 77C",
-   "GPU1 97% 33/40GB 79C",
-   "GPU2 0% 20/80GB 61C",
-   "GPU3 0% 26/40GB 68C"
+   "GPU0 91% 50/80GB 79C",
+   "GPU1 100% 33/40GB 75C",
+   "GPU2 77% 21/80GB 70C",
+   "GPU3 100% 26/40GB 73C"
   ],
   "source": 30,
   "producer": 30,
@@ -186,6 +193,10 @@
     }
    ],
    "gpu2": [
+    {
+     "who": "other",
+     "desc": "xieyuxuan python"
+    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
