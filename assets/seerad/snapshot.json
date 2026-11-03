@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 10:37:25",
+  "ts": "2026-11-03 10:47:42",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 50795,
+    "mem_used_mb": 51226,
     "mem_total_mb": 81920,
-    "util_gpu": 87,
-    "temp_c": 73,
+    "util_gpu": 94,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -32,23 +32,23 @@
       "cmd_short": "worker.py"
      },
      {
-      "pid": 1508942,
-      "owner": "xieyuxuan",
-      "mem_mb": 7162,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 1510053,
-      "owner": "xieyuxuan",
-      "mem_mb": 458,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
       "pid": 1518613,
       "owner": "xieyuxuan",
-      "mem_mb": 6972,
+      "mem_mb": 7160,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 1535241,
+      "owner": "xieyuxuan",
+      "mem_mb": 7160,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 1535892,
+      "owner": "xieyuxuan",
+      "mem_mb": 690,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -57,15 +57,15 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33694,
+    "mem_used_mb": 33692,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 71,
+    "util_gpu": 16,
+    "temp_c": 67,
     "procs": [
      {
-      "pid": 1263809,
+      "pid": 1533642,
       "owner": "wangguoyan",
-      "mem_mb": 33562,
+      "mem_mb": 33560,
       "experiment": "other",
       "cmd_short": "worker.py"
      }
@@ -74,7 +74,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 27907,
+    "mem_used_mb": 27899,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 76,
@@ -89,7 +89,7 @@
      {
       "pid": 1525542,
       "owner": "xieyuxuan",
-      "mem_mb": 6980,
+      "mem_mb": 6982,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -108,7 +108,7 @@
     "mem_used_mb": 7016,
     "mem_total_mb": 40960,
     "util_gpu": 43,
-    "temp_c": 52,
+    "temp_c": 53,
     "procs": [
      {
       "pid": 1525541,
@@ -121,10 +121,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 45% 50/80GB 73C",
-   "GPU1 87% 33/40GB 73C",
-   "GPU2 95% 27/80GB 77C",
-   "GPU3 0% 7/40GB 52C"
+   "GPU0 100% 50/80GB 75C",
+   "GPU1 37% 33/40GB 72C",
+   "GPU2 100% 27/80GB 75C",
+   "GPU3 0% 7/40GB 53C"
   ],
   "source": 30,
   "producer": 30,
