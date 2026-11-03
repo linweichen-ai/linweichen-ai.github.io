@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 01:58:34",
+  "ts": "2026-11-04 02:08:45",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 43516,
+    "mem_used_mb": 43328,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
-    "temp_c": 82,
+    "util_gpu": 0,
+    "temp_c": 73,
     "procs": [
      {
       "pid": 1209327,
@@ -34,7 +34,7 @@
      {
       "pid": 2484761,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -45,8 +45,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 77,
+    "util_gpu": 37,
+    "temp_c": 71,
     "procs": [
      {
       "pid": 2264035,
@@ -60,10 +60,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 67582,
+    "mem_used_mb": 67578,
     "mem_total_mb": 81920,
-    "util_gpu": 98,
-    "temp_c": 81,
+    "util_gpu": 97,
+    "temp_c": 83,
     "procs": [
      {
       "pid": 2284417,
@@ -73,16 +73,16 @@
       "cmd_short": "worker.py"
      },
      {
-      "pid": 2458617,
+      "pid": 2503982,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 26992,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 2503982,
+      "pid": 2513336,
       "owner": "xieyuxuan",
-      "mem_mb": 26992,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -94,7 +94,7 @@
     "mem_used_mb": 7000,
     "mem_total_mb": 40960,
     "util_gpu": 0,
-    "temp_c": 58,
+    "temp_c": 56,
     "procs": [
      {
       "pid": 2463999,
@@ -107,10 +107,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 42/80GB 81C",
-   "GPU1 88% 33/40GB 80C",
-   "GPU2 89% 66/80GB 82C",
-   "GPU3 0% 7/40GB 58C"
+   "GPU0 16% 42/80GB 73C",
+   "GPU1 26% 33/40GB 71C",
+   "GPU2 100% 66/80GB 82C",
+   "GPU3 0% 7/40GB 56C"
   ],
   "source": 30,
   "producer": 30,
