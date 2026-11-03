@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 21:13:22",
+  "ts": "2026-11-03 21:23:35",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 63334,
+    "mem_used_mb": 63323,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 82,
+    "temp_c": 81,
     "procs": [
      {
       "pid": 1209327,
@@ -50,10 +50,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 33703,
+    "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 77,
+    "util_gpu": 23,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1821121,
@@ -67,36 +67,22 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 35187,
+    "mem_used_mb": 18708,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 82,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 2070839,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 2167331,
-      "owner": "xieyuxuan",
-      "mem_mb": 7160,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 2169102,
-      "owner": "xieyuxuan",
-      "mem_mb": 683,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
       "pid": 2181582,
       "owner": "xieyuxuan",
-      "mem_mb": 20110,
+      "mem_mb": 22876,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -107,8 +93,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 26936,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 73,
+    "util_gpu": 0,
+    "temp_c": 69,
     "procs": [
      {
       "pid": 1985510,
@@ -122,9 +108,9 @@
   ],
   "gpus_text": [
    "GPU0 100% 62/80GB 81C",
-   "GPU1 100% 33/40GB 77C",
-   "GPU2 100% 26/80GB 80C",
-   "GPU3 100% 26/40GB 73C"
+   "GPU1 100% 33/40GB 78C",
+   "GPU2 98% 29/80GB 81C",
+   "GPU3 0% 26/40GB 69C"
   ],
   "source": 30,
   "producer": 30,
@@ -182,14 +168,6 @@
     }
    ],
    "gpu2": [
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    },
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
