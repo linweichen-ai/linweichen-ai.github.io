@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 13:51:45",
+  "ts": "2026-11-03 14:01:58",
   "gpus": [
    {
     "index": 0,
@@ -25,13 +25,6 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 1620020,
-      "owner": "xieyuxuan",
-      "mem_mb": 6974,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
       "pid": 1640316,
       "owner": "wangguoyan",
       "mem_mb": 33562,
@@ -44,6 +37,13 @@
       "mem_mb": 19988,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 1697010,
+      "owner": "xieyuxuan",
+      "mem_mb": 6974,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -53,7 +53,7 @@
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
     "util_gpu": 100,
-    "temp_c": 71,
+    "temp_c": 73,
     "procs": [
      {
       "pid": 1533642,
@@ -67,7 +67,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 67152,
+    "mem_used_mb": 61486,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 79,
@@ -82,7 +82,7 @@
      {
       "pid": 1541442,
       "owner": "xieyuxuan",
-      "mem_mb": 20112,
+      "mem_mb": 22876,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -100,8 +100,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 26932,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 72,
+    "util_gpu": 64,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 1560238,
@@ -114,10 +114,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 62/80GB 77C",
-   "GPU1 56% 33/40GB 69C",
-   "GPU2 100% 66/80GB 79C",
-   "GPU3 100% 26/40GB 72C"
+   "GPU0 100% 62/80GB 78C",
+   "GPU1 33% 33/40GB 72C",
+   "GPU2 100% 68/80GB 79C",
+   "GPU3 29% 26/40GB 71C"
   ],
   "source": 30,
   "producer": 30,
@@ -157,11 +157,11 @@
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     },
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
