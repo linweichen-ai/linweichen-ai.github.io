@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-03 20:22:27",
+  "ts": "2026-11-03 20:32:38",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 51222,
+    "mem_used_mb": 51212,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 81,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 1209327,
@@ -34,7 +34,7 @@
      {
       "pid": 2081977,
       "owner": "xieyuxuan",
-      "mem_mb": 6976,
+      "mem_mb": 7162,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -48,7 +48,7 @@
      {
       "pid": 2117336,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 7162,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -74,10 +74,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 22047,
+    "mem_used_mb": 17484,
     "mem_total_mb": 81920,
-    "util_gpu": 93,
-    "temp_c": 74,
+    "util_gpu": 0,
+    "temp_c": 60,
     "procs": [
      {
       "pid": 2070839,
@@ -87,23 +87,16 @@
       "cmd_short": "python"
      },
      {
-      "pid": 2079185,
+      "pid": 2129643,
       "owner": "xieyuxuan",
       "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 2107961,
+      "pid": 2139957,
       "owner": "xieyuxuan",
-      "mem_mb": 6972,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 2108720,
-      "owner": "xieyuxuan",
-      "mem_mb": 683,
+      "mem_mb": 3486,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -114,7 +107,7 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 26936,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
+    "util_gpu": 1,
     "temp_c": 73,
     "procs": [
      {
@@ -128,9 +121,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 50/80GB 81C",
-   "GPU1 62% 33/40GB 79C",
-   "GPU2 90% 21/80GB 75C",
+   "GPU0 86% 50/80GB 79C",
+   "GPU1 21% 33/40GB 74C",
+   "GPU2 0% 17/80GB 60C",
    "GPU3 100% 26/40GB 73C"
   ],
   "source": 30,
@@ -193,10 +186,6 @@
     }
    ],
    "gpu2": [
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
