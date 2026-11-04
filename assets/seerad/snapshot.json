@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 18:17:59",
+  "ts": "2026-11-04 18:28:11",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 50307,
+    "mem_used_mb": 50784,
     "mem_total_mb": 81920,
-    "util_gpu": 80,
-    "temp_c": 75,
+    "util_gpu": 100,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 1209327,
@@ -32,16 +32,23 @@
       "cmd_short": "worker.py"
      },
      {
-      "pid": 3521814,
+      "pid": 3544435,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 3544435,
+      "pid": 3551337,
       "owner": "xieyuxuan",
-      "mem_mb": 6972,
+      "mem_mb": 7160,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3552039,
+      "owner": "xieyuxuan",
+      "mem_mb": 458,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -52,8 +59,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 99,
-    "temp_c": 75,
+    "util_gpu": 79,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 3428370,
@@ -67,7 +74,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 67792,
+    "mem_used_mb": 67604,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 80,
@@ -100,8 +107,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 22726,
     "mem_total_mb": 40960,
-    "util_gpu": 90,
-    "temp_c": 69,
+    "util_gpu": 87,
+    "temp_c": 70,
     "procs": [
      {
       "pid": 3168311,
@@ -121,10 +128,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 96% 49/80GB 77C",
-   "GPU1 89% 33/40GB 75C",
-   "GPU2 100% 66/80GB 80C",
-   "GPU3 90% 22/40GB 69C"
+   "GPU0 100% 50/80GB 76C",
+   "GPU1 90% 33/40GB 76C",
+   "GPU2 100% 66/80GB 81C",
+   "GPU3 100% 22/40GB 69C"
   ],
   "source": 30,
   "producer": 30,
@@ -165,6 +172,10 @@
     {
      "who": "other",
      "desc": "wangguoyan python"
+    },
+    {
+     "who": "other",
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
