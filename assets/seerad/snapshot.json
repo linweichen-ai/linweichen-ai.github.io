@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-05 05:16:29",
+  "ts": "2026-11-05 05:26:39",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 9760,
+    "mem_used_mb": 2780,
     "mem_total_mb": 81920,
-    "util_gpu": 15,
-    "temp_c": 52,
+    "util_gpu": 0,
+    "temp_c": 48,
     "procs": [
      {
       "pid": 1209327,
@@ -23,13 +23,6 @@
       "mem_mb": 1310,
       "experiment": "other",
       "cmd_short": "experiment_runner_v2.py"
-     },
-     {
-      "pid": 4135801,
-      "owner": "xieyuxuan",
-      "mem_mb": 6974,
-      "experiment": "other",
-      "cmd_short": "python"
      }
     ]
    },
@@ -48,7 +41,7 @@
     "mem_used_mb": 60992,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 77,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 3857190,
@@ -84,9 +77,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 32% 10/80GB 51C",
+   "GPU0 0% 3/80GB 48C",
    "GPU1 0% 0/40GB 47C",
-   "GPU2 100% 60/80GB 77C",
+   "GPU2 100% 60/80GB 75C",
    "GPU3 0% 0/40GB 46C"
   ],
   "source": 30,
@@ -124,10 +117,6 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
-    },
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
     }
    ],
    "gpu2": [
