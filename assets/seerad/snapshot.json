@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-05 05:46:57",
+  "ts": "2026-11-05 05:57:06",
   "gpus": [
    {
     "index": 0,
@@ -38,7 +38,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 61180,
+    "mem_used_mb": 60992,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 76,
@@ -60,7 +60,7 @@
      {
       "pid": 4168928,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      }
