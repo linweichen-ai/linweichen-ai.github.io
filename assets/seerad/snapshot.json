@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-11-05 01:07:23",
+  "ts": "2026-11-05 01:17:33",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 42729,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
+    "util_gpu": 99,
     "temp_c": 78,
     "procs": [
      {
@@ -50,10 +50,10 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 12912,
+    "mem_used_mb": 12922,
     "mem_total_mb": 40960,
-    "util_gpu": 26,
-    "temp_c": 66,
+    "util_gpu": 100,
+    "temp_c": 67,
     "procs": [
      {
       "pid": 3942410,
@@ -67,7 +67,7 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 60998,
+    "mem_used_mb": 61000,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 79,
@@ -98,26 +98,18 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 2890,
+    "mem_used_mb": 19,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 49,
-    "procs": [
-     {
-      "pid": 3939922,
-      "owner": "cenzihan",
-      "mem_mb": 2866,
-      "experiment": "other",
-      "cmd_short": "evaluate_flat_policy.py"
-     }
-    ]
+    "procs": []
    }
   ],
   "gpus_text": [
-   "GPU0 100% 42/80GB 78C",
-   "GPU1 35% 13/40GB 66C",
+   "GPU0 100% 42/80GB 79C",
+   "GPU1 58% 13/40GB 63C",
    "GPU2 100% 60/80GB 79C",
-   "GPU3 26% 3/40GB 49C"
+   "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
   "producer": 30,
@@ -186,12 +178,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    }
-   ],
-   "gpu3": [
-    {
-     "who": "other",
-     "desc": "cenzihan python"
     }
    ]
   },
