@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 18:28:11",
+  "ts": "2026-11-04 18:38:24",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 50784,
+    "mem_used_mb": 50970,
     "mem_total_mb": 81920,
-    "util_gpu": 100,
+    "util_gpu": 91,
     "temp_c": 78,
     "procs": [
      {
@@ -34,14 +34,14 @@
      {
       "pid": 3544435,
       "owner": "xieyuxuan",
-      "mem_mb": 6972,
+      "mem_mb": 7160,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
       "pid": 3551337,
       "owner": "xieyuxuan",
-      "mem_mb": 7160,
+      "mem_mb": 6972,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -59,8 +59,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 79,
-    "temp_c": 76,
+    "util_gpu": 100,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 3428370,
@@ -77,7 +77,7 @@
     "mem_used_mb": 67604,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 80,
+    "temp_c": 81,
     "procs": [
      {
       "pid": 3023416,
@@ -96,7 +96,7 @@
      {
       "pid": 3540489,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -105,18 +105,11 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 22726,
+    "mem_used_mb": 8024,
     "mem_total_mb": 40960,
-    "util_gpu": 87,
-    "temp_c": 70,
+    "util_gpu": 36,
+    "temp_c": 52,
     "procs": [
-     {
-      "pid": 3168311,
-      "owner": "cenzihan",
-      "mem_mb": 14696,
-      "experiment": "other",
-      "cmd_short": "train.py"
-     },
      {
       "pid": 3517412,
       "owner": "cenzihan",
@@ -128,10 +121,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 50/80GB 76C",
-   "GPU1 90% 33/40GB 76C",
+   "GPU0 100% 50/80GB 79C",
+   "GPU1 100% 33/40GB 73C",
    "GPU2 100% 66/80GB 81C",
-   "GPU3 100% 22/40GB 69C"
+   "GPU3 33% 8/40GB 52C"
   ],
   "source": 30,
   "producer": 30,
@@ -207,10 +200,6 @@
     }
    ],
    "gpu3": [
-    {
-     "who": "other",
-     "desc": "cenzihan python"
-    },
     {
      "who": "other",
      "desc": "cenzihan python"
