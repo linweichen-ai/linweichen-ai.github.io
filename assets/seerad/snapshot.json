@@ -1,13 +1,13 @@
 {
  "snapshot": {
-  "ts": "2026-11-05 06:17:24",
+  "ts": "2026-11-05 06:27:33",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 2780,
+    "mem_used_mb": 5652,
     "mem_total_mb": 81920,
-    "util_gpu": 0,
+    "util_gpu": 18,
     "temp_c": 48,
     "procs": [
      {
@@ -23,6 +23,13 @@
       "mem_mb": 1310,
       "experiment": "other",
       "cmd_short": "experiment_runner_v2.py"
+     },
+     {
+      "pid": 8364,
+      "owner": "cenzihan",
+      "mem_mb": 2866,
+      "experiment": "other",
+      "cmd_short": "evaluate_flat_policy.py"
      }
     ]
    },
@@ -40,8 +47,8 @@
     "name": "NVIDIA A100-SXM4-80GB",
     "mem_used_mb": 60992,
     "mem_total_mb": 81920,
-    "util_gpu": 89,
-    "temp_c": 74,
+    "util_gpu": 100,
+    "temp_c": 76,
     "procs": [
      {
       "pid": 4069702,
@@ -77,9 +84,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 0% 3/80GB 48C",
+   "GPU0 0% 6/80GB 48C",
    "GPU1 0% 0/40GB 47C",
-   "GPU2 89% 60/80GB 76C",
+   "GPU2 100% 60/80GB 76C",
    "GPU3 0% 0/40GB 46C"
   ],
   "source": 30,
@@ -117,6 +124,10 @@
     {
      "who": "other",
      "desc": "experiment_runner_v2.py"
+    },
+    {
+     "who": "other",
+     "desc": "cenzihan python"
     }
    ],
    "gpu2": [
