@@ -1,11 +1,11 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 22:34:47",
+  "ts": "2026-11-04 22:44:59",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 51410,
+    "mem_used_mb": 63334,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 77,
@@ -32,23 +32,16 @@
       "cmd_short": "worker.py"
      },
      {
-      "pid": 3728977,
-      "owner": "xieyuxuan",
-      "mem_mb": 6976,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 3729768,
-      "owner": "xieyuxuan",
-      "mem_mb": 690,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
       "pid": 3803851,
       "owner": "xieyuxuan",
       "mem_mb": 6974,
+      "experiment": "other",
+      "cmd_short": "python"
+     },
+     {
+      "pid": 3813432,
+      "owner": "xieyuxuan",
+      "mem_mb": 19988,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -57,7 +50,7 @@
    {
     "index": 1,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 136,
+    "mem_used_mb": 126,
     "mem_total_mb": 40960,
     "util_gpu": 0,
     "temp_c": 50,
@@ -66,10 +59,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 42071,
+    "mem_used_mb": 41883,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 77,
+    "temp_c": 78,
     "procs": [
      {
       "pid": 3709064,
@@ -81,7 +74,7 @@
      {
       "pid": 3792810,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
+      "mem_mb": 6976,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -104,26 +97,18 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 8024,
+    "mem_used_mb": 19,
     "mem_total_mb": 40960,
     "util_gpu": 0,
-    "temp_c": 50,
-    "procs": [
-     {
-      "pid": 3517412,
-      "owner": "cenzihan",
-      "mem_mb": 7996,
-      "experiment": "other",
-      "cmd_short": "train_chassis.py"
-     }
-    ]
+    "temp_c": 49,
+    "procs": []
    }
   ],
   "gpus_text": [
-   "GPU0 100% 50/80GB 79C",
+   "GPU0 100% 62/80GB 78C",
    "GPU1 0% 0/40GB 50C",
-   "GPU2 100% 41/80GB 77C",
-   "GPU3 0% 8/40GB 50C"
+   "GPU2 100% 41/80GB 78C",
+   "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
   "producer": 30,
@@ -172,10 +157,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    },
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
     }
    ],
    "gpu2": [
@@ -194,12 +175,6 @@
     {
      "who": "other",
      "desc": "xieyuxuan python"
-    }
-   ],
-   "gpu3": [
-    {
-     "who": "other",
-     "desc": "cenzihan python"
     }
    ]
   },
