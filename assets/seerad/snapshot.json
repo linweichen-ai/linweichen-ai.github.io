@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 23:15:31",
+  "ts": "2026-11-04 23:25:41",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 21352,
+    "mem_used_mb": 29756,
     "mem_total_mb": 81920,
-    "util_gpu": 91,
-    "temp_c": 73,
+    "util_gpu": 100,
+    "temp_c": 77,
     "procs": [
      {
       "pid": 1209327,
@@ -27,7 +27,7 @@
      {
       "pid": 3803851,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
+      "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -52,10 +52,10 @@
    {
     "index": 2,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 41883,
+    "mem_used_mb": 61106,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 78,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 3709064,
@@ -65,23 +65,16 @@
       "cmd_short": "python"
      },
      {
-      "pid": 3792810,
+      "pid": 3850492,
       "owner": "xieyuxuan",
       "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 3793793,
+      "pid": 3857190,
       "owner": "xieyuxuan",
-      "mem_mb": 683,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
-      "pid": 3807051,
-      "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 26896,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -98,9 +91,9 @@
    }
   ],
   "gpus_text": [
-   "GPU0 100% 29/80GB 76C",
+   "GPU0 100% 29/80GB 77C",
    "GPU1 0% 0/40GB 50C",
-   "GPU2 100% 41/80GB 78C",
+   "GPU2 100% 59/80GB 76C",
    "GPU3 0% 0/40GB 49C"
   ],
   "source": 30,
@@ -149,10 +142,6 @@
     }
    ],
    "gpu2": [
-    {
-     "who": "other",
-     "desc": "xieyuxuan python"
-    },
     {
      "who": "other",
      "desc": "xieyuxuan python"
