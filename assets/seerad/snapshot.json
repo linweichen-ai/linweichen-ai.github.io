@@ -1,11 +1,11 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 12:49:44",
+  "ts": "2026-11-04 12:59:54",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 63323,
+    "mem_used_mb": 63509,
     "mem_total_mb": 81920,
     "util_gpu": 100,
     "temp_c": 80,
@@ -41,7 +41,7 @@
      {
       "pid": 3214458,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 7160,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -52,8 +52,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 100,
-    "temp_c": 76,
+    "util_gpu": 29,
+    "temp_c": 75,
     "procs": [
      {
       "pid": 3041761,
@@ -70,7 +70,7 @@
     "mem_used_mb": 60596,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 82,
+    "temp_c": 80,
     "procs": [
      {
       "pid": 3023416,
@@ -91,33 +91,33 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 21890,
+    "mem_used_mb": 21704,
     "mem_total_mb": 40960,
-    "util_gpu": 60,
-    "temp_c": 69,
+    "util_gpu": 82,
+    "temp_c": 68,
     "procs": [
-     {
-      "pid": 3150607,
-      "owner": "xieyuxuan",
-      "mem_mb": 6974,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
      {
       "pid": 3168311,
       "owner": "cenzihan",
       "mem_mb": 14696,
       "experiment": "other",
       "cmd_short": "train.py"
+     },
+     {
+      "pid": 3242220,
+      "owner": "xieyuxuan",
+      "mem_mb": 6974,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    }
   ],
   "gpus_text": [
    "GPU0 100% 62/80GB 80C",
-   "GPU1 100% 33/40GB 77C",
-   "GPU2 100% 59/80GB 82C",
-   "GPU3 94% 21/40GB 68C"
+   "GPU1 100% 33/40GB 74C",
+   "GPU2 100% 59/80GB 81C",
+   "GPU3 68% 21/40GB 67C"
   ],
   "source": 30,
   "producer": 30,
@@ -187,11 +187,11 @@
    "gpu3": [
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "cenzihan python"
     },
     {
      "who": "other",
-     "desc": "cenzihan python"
+     "desc": "xieyuxuan python"
     }
    ]
   },
