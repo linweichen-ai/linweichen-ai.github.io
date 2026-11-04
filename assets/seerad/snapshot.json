@@ -1,14 +1,14 @@
 {
  "snapshot": {
-  "ts": "2026-11-04 17:55:30",
+  "ts": "2026-11-04 18:07:47",
   "gpus": [
    {
     "index": 0,
     "name": "NVIDIA A100-SXM4-80GB",
-    "mem_used_mb": 54904,
+    "mem_used_mb": 50320,
     "mem_total_mb": 81920,
-    "util_gpu": 50,
-    "temp_c": 70,
+    "util_gpu": 96,
+    "temp_c": 79,
     "procs": [
      {
       "pid": 1209327,
@@ -25,13 +25,6 @@
       "cmd_short": "experiment_runner_v2.py"
      },
      {
-      "pid": 3207913,
-      "owner": "xieyuxuan",
-      "mem_mb": 11558,
-      "experiment": "other",
-      "cmd_short": "python"
-     },
-     {
       "pid": 3254257,
       "owner": "wangguoyan",
       "mem_mb": 33562,
@@ -44,6 +37,13 @@
       "mem_mb": 6974,
       "experiment": "other",
       "cmd_short": "python"
+     },
+     {
+      "pid": 3521814,
+      "owner": "xieyuxuan",
+      "mem_mb": 6974,
+      "experiment": "other",
+      "cmd_short": "python"
      }
     ]
    },
@@ -52,8 +52,8 @@
     "name": "NVIDIA A100-PCIE-40GB",
     "mem_used_mb": 33694,
     "mem_total_mb": 40960,
-    "util_gpu": 93,
-    "temp_c": 77,
+    "util_gpu": 100,
+    "temp_c": 74,
     "procs": [
      {
       "pid": 3428370,
@@ -70,7 +70,7 @@
     "mem_used_mb": 68493,
     "mem_total_mb": 81920,
     "util_gpu": 100,
-    "temp_c": 80,
+    "temp_c": 81,
     "procs": [
      {
       "pid": 3023416,
@@ -89,7 +89,7 @@
      {
       "pid": 3490213,
       "owner": "xieyuxuan",
-      "mem_mb": 6974,
+      "mem_mb": 7160,
       "experiment": "other",
       "cmd_short": "python"
      },
@@ -105,10 +105,10 @@
    {
     "index": 3,
     "name": "NVIDIA A100-PCIE-40GB",
-    "mem_used_mb": 16640,
+    "mem_used_mb": 22726,
     "mem_total_mb": 40960,
-    "util_gpu": 46,
-    "temp_c": 69,
+    "util_gpu": 84,
+    "temp_c": 68,
     "procs": [
      {
       "pid": 3168311,
@@ -120,7 +120,7 @@
      {
       "pid": 3517412,
       "owner": "cenzihan",
-      "mem_mb": 1910,
+      "mem_mb": 7996,
       "experiment": "other",
       "cmd_short": "train_chassis.py"
      }
@@ -128,10 +128,10 @@
    }
   ],
   "gpus_text": [
-   "GPU0 67% 54/80GB 75C",
-   "GPU1 92% 33/40GB 77C",
-   "GPU2 81% 67/80GB 81C",
-   "GPU3 79% 16/40GB 69C"
+   "GPU0 87% 49/80GB 78C",
+   "GPU1 91% 33/40GB 75C",
+   "GPU2 100% 67/80GB 82C",
+   "GPU3 79% 22/40GB 69C"
   ],
   "source": 30,
   "producer": 30,
@@ -171,11 +171,11 @@
     },
     {
      "who": "other",
-     "desc": "xieyuxuan python"
+     "desc": "wangguoyan python"
     },
     {
      "who": "other",
-     "desc": "wangguoyan python"
+     "desc": "xieyuxuan python"
     },
     {
      "who": "other",
