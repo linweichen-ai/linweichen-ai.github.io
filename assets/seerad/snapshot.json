@@ -1,6 +1,6 @@
 {
  "snapshot": {
-  "ts": "2026-11-05 05:36:48",
+  "ts": "2026-11-05 05:46:57",
   "gpus": [
    {
     "index": 0,
@@ -51,16 +51,16 @@
       "cmd_short": "python"
      },
      {
-      "pid": 4107152,
+      "pid": 4158396,
       "owner": "xieyuxuan",
-      "mem_mb": 7162,
+      "mem_mb": 26970,
       "experiment": "other",
       "cmd_short": "python"
      },
      {
-      "pid": 4158396,
+      "pid": 4168928,
       "owner": "xieyuxuan",
-      "mem_mb": 26970,
+      "mem_mb": 7162,
       "experiment": "other",
       "cmd_short": "python"
      }
@@ -79,7 +79,7 @@
   "gpus_text": [
    "GPU0 0% 3/80GB 48C",
    "GPU1 0% 0/40GB 47C",
-   "GPU2 100% 60/80GB 75C",
+   "GPU2 100% 60/80GB 76C",
    "GPU3 0% 0/40GB 46C"
   ],
   "source": 30,
